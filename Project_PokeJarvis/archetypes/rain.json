@@ -1,0 +1,69 @@
+{
+  "id": "rain",
+  "name": "Rain sample",
+  "recommended_presets": ["gen9", "gen8_ss", "legends_za"],
+  "format_notes": "Sample doubles rain. Landorus and Thundurus are legendary in PokeAPI; --legendary-policy ban_legendary_and_mythical will flag those slots—swap species or use allow_all.",
+  "recommended_field": { "weather": "Rain" },
+  "slots": [
+    {
+      "species": "Pelipper",
+      "level": 50,
+      "ability": "Drizzle",
+      "item": "Damp Rock",
+      "nature": "Bold",
+      "evs": { "hp": 252, "def": 252, "spd": 4 },
+      "ivs": {},
+      "moves": ["Hurricane", "Weather Ball", "Tailwind", "Protect"]
+    },
+    {
+      "species": "Barraskewda",
+      "level": 50,
+      "ability": "Swift Swim",
+      "item": "Life Orb",
+      "nature": "Adamant",
+      "evs": { "atk": 252, "spe": 252, "spd": 4 },
+      "ivs": {},
+      "moves": ["Liquidation", "Close Combat", "Ice Fang", "Protect"]
+    },
+    {
+      "species": "Ferrothorn",
+      "level": 50,
+      "ability": "Iron Barbs",
+      "item": "Leftovers",
+      "nature": "Relaxed",
+      "evs": { "hp": 252, "def": 252, "spd": 4 },
+      "ivs": {},
+      "moves": ["Leech Seed", "Gyro Ball", "Body Press", "Protect"]
+    },
+    {
+      "species": "Amoonguss",
+      "level": 50,
+      "ability": "Regenerator",
+      "item": "Rocky Helmet",
+      "nature": "Bold",
+      "evs": { "hp": 252, "def": 252, "spd": 4 },
+      "ivs": {},
+      "moves": ["Spore", "Sludge Bomb", "Pollen Puff", "Protect"]
+    },
+    {
+      "species": "Thundurus",
+      "level": 50,
+      "ability": "Prankster",
+      "item": "Safety Goggles",
+      "nature": "Timid",
+      "evs": { "spa": 252, "spe": 252, "hp": 4 },
+      "ivs": {},
+      "moves": ["Wildbolt Storm", "Thunder Wave", "Rain Dance", "Protect"]
+    },
+    {
+      "species": "Landorus",
+      "level": 50,
+      "ability": "Sheer Force",
+      "item": "Life Orb",
+      "nature": "Timid",
+      "evs": { "spa": 252, "spe": 252, "hp": 4 },
+      "ivs": {},
+      "moves": ["Earth Power", "Sludge Bomb", "Focus Blast", "Protect"]
+    }
+  ]
+}

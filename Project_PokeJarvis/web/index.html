@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeJarvis — Analyze</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hdr">
+        <h1>PokeJarvis Analyze</h1>
+        <p class="muted">
+          Start the API on <strong>:8000</strong> with <code>POKEJARVIS_ROOT</code> pointing at the project root so
+          <code>calc_bridge.js</code> resolves correctly.
+        </p>
+      </header>
+
+      <section class="controls">
+        <label>
+          Battle preset
+          <select id="preset"></select>
+        </label>
+        <label>
+          Field JSON (optional, merged into calc Field)
+          <textarea id="field" rows="2" spellcheck="false" placeholder="{ }"></textarea>
+        </label>
+      </section>
+
+      <section class="grids">
+        <div class="col">
+          <div class="col-h">
+            <h2>Team A JSON</h2>
+            <button type="button" class="ghost" id="loadRain">Rain sample</button>
+          </div>
+          <textarea id="teamA" rows="18" spellcheck="false"></textarea>
+        </div>
+        <div class="col">
+          <div class="col-h">
+            <h2>Team B JSON</h2>
+            <button type="button" class="ghost" id="loadSun">Sun sample</button>
+          </div>
+          <textarea id="teamB" rows="18" spellcheck="false"></textarea>
+        </div>
+      </section>
+
+      <footer class="actions">
+        <button type="button" id="analyze" class="primary">Analyze</button>
+        <span id="status" class="muted"></span>
+      </footer>
+
+      <section class="out">
+        <h2>Result</h2>
+        <pre id="output" class="mono"></pre>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

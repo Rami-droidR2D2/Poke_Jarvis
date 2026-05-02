@@ -1,0 +1,69 @@
+{
+  "id": "sun",
+  "name": "Sun sample",
+  "recommended_presets": ["gen9", "gen8_ss", "legends_za"],
+  "format_notes": "Sample doubles sun with paradox Pokémon (Great Tusk, Flutter Mane, Raging Bolt). Verify tier rules separately; CLI legendary-policy uses PokeAPI is_legendary/is_mythical only.",
+  "recommended_field": { "weather": "Sun" },
+  "slots": [
+    {
+      "species": "Torkoal",
+      "level": 50,
+      "ability": "Drought",
+      "item": "Heat Rock",
+      "nature": "Bold",
+      "evs": { "hp": 252, "def": 252, "spd": 4 },
+      "ivs": {},
+      "moves": ["Eruption", "Heat Wave", "Helping Hand", "Protect"]
+    },
+    {
+      "species": "Venusaur",
+      "level": 50,
+      "ability": "Chlorophyll",
+      "item": "Life Orb",
+      "nature": "Modest",
+      "evs": { "spa": 252, "spe": 252, "hp": 4 },
+      "ivs": {},
+      "moves": ["Sludge Bomb", "Weather Ball", "Earth Power", "Sleep Powder"]
+    },
+    {
+      "species": "Great Tusk",
+      "level": 50,
+      "ability": "Protosynthesis",
+      "item": "Booster Energy",
+      "nature": "Jolly",
+      "evs": { "atk": 252, "spe": 252, "hp": 4 },
+      "ivs": {},
+      "moves": ["Headlong Rush", "Ice Spinner", "Close Combat", "Protect"]
+    },
+    {
+      "species": "Incineroar",
+      "level": 50,
+      "ability": "Intimidate",
+      "item": "Safety Goggles",
+      "nature": "Adamant",
+      "evs": { "hp": 252, "atk": 252, "spd": 4 },
+      "ivs": {},
+      "moves": ["Fake Out", "Knock Off", "Flare Blitz", "Parting Shot"]
+    },
+    {
+      "species": "Flutter Mane",
+      "level": 50,
+      "ability": "Protosynthesis",
+      "item": "Choice Specs",
+      "nature": "Timid",
+      "evs": { "spa": 252, "spe": 252, "hp": 4 },
+      "ivs": {},
+      "moves": ["Moonblast", "Shadow Ball", "Power Gem", "Protect"]
+    },
+    {
+      "species": "Raging Bolt",
+      "level": 50,
+      "ability": "Protosynthesis",
+      "item": "Assault Vest",
+      "nature": "Modest",
+      "evs": { "hp": 252, "spa": 252, "spd": 4 },
+      "ivs": {},
+      "moves": ["Thunderbolt", "Dragon Pulse", "Thunderclap", "Electroweb"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "preset_id": "gen9",
+  "team_name": "Draft coach sample",
+  "must_include": [
+    {
+      "species": "Garchomp",
+      "level": 50,
+      "moves": ["Earthquake", "Protect"]
+    },
+    {
+      "species": "Incineroar",
+      "level": 50,
+      "moves": ["Fake Out", "Knock Off", "Flare Blitz", "Protect"]
+    }
+  ],
+  "meta_threats": ["Flutter Mane", "Meowscarada"],
+  "speed_margin": 20,
+  "assume_field_opponent": {
+    "lead_species": "Farigiraf",
+    "assume_armor_tail_active": true
+  }
+}
